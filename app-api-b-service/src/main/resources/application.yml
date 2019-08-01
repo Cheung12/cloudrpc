@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: app-api-b
+server:
+  port: 9003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9000/eureka/
