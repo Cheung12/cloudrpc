@@ -1,6 +1,6 @@
 spring:
   application:
-    name: app-helloservice
+    name: app-api-a
 server:
   port: 9002
 eureka:

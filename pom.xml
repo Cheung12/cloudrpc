@@ -10,6 +10,8 @@
         <module>app-hystrix</module>
         <module>app-api-a</module>
         <module>app-api-a-service</module>
+        <module>app-api-b</module>
+        <module>app-api-b-service</module>
     </modules>
 
     <properties>

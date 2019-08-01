@@ -4,6 +4,10 @@ spring:
   cloud:
     gateway:
       routes:
+        - id: after_route
+            uri: http://example.org
+            predicates:
+              - After=2019-08-01T11:42:47.789-07:00[China/Shainghai]
 server:
   port: 9001
 
@@ -11,3 +15,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:9000/eureka/
+
