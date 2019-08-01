@@ -1,6 +1,9 @@
 spring:
   application:
     name: app-gateway
+  cloud:
+    gateway:
+      routes:
 server:
   port: 9001
 

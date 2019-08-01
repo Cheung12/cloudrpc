@@ -8,8 +8,8 @@
         <module>app-gateway</module>
         <module>app-feign</module>
         <module>app-hystrix</module>
-        <module>app-api</module>
-        <module>app-service</module>
+        <module>app-api-a</module>
+        <module>app-api-a-service</module>
     </modules>
 
     <properties>
